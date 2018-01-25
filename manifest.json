@@ -1,0 +1,11 @@
+{
+  "name": "gs to console",
+  "description": "Type in Google Cloud Storage URI (gs://...) in Omnibox and get redirected to Cloud Console",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "omnibox": { "keyword" : "gs" },
+  "manifest_version": 2
+}
